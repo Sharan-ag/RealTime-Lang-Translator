@@ -1,0 +1,183 @@
+{
+  "requests": [
+    {
+      "request_id": "abc12345xyz",
+      "timestamp": "2025-04-12T14:30:00Z",
+      "source_language": "en",
+      "target_language": "es",
+      "source_text": "Hello, how are you?",
+      "translated_text": "Hola, ¿cómo estás?",
+      "status": "success",
+      "error_message": null,
+      "detection": {
+        "language": "en",
+        "confidence": 0.98
+      },
+      "processing_time": 120,
+      "api_version": "1.0"
+    },
+    {
+      "request_id": "def67890uvw",
+      "timestamp": "2025-04-12T14:32:45Z",
+      "source_language": "fr",
+      "target_language": "en",
+      "source_text": "Bonjour, comment ça va ?",
+      "translated_text": "Hello, how are you?",
+      "status": "success",
+      "error_message": null,
+      "detection": {
+        "language": "fr",
+        "confidence": 0.99
+      },
+      "processing_time": 150,
+      "api_version": "1.0"
+    },
+    {
+      "request_id": "ghi11223rst",
+      "timestamp": "2025-04-12T14:35:00Z",
+      "source_language": "de",
+      "target_language": "en",
+      "source_text": "Guten Morgen, wie geht's dir?",
+      "translated_text": "Good morning, how are you?",
+      "status": "success",
+      "error_message": null,
+      "detection": {
+        "language": "de",
+        "confidence": 0.97
+      },
+      "processing_time": 130,
+      "api_version": "1.0"
+    },
+    {
+      "request_id": "jkl34567mno",
+      "timestamp": "2025-04-12T14:37:10Z",
+      "source_language": "it",
+      "target_language": "en",
+      "source_text": "Ciao, come stai?",
+      "translated_text": "Hi, how are you?",
+      "status": "success",
+      "error_message": null,
+      "detection": {
+        "language": "it",
+        "confidence": 0.95
+      },
+      "processing_time": 110,
+      "api_version": "1.0"
+    },
+    {
+      "request_id": "mno89012pqr",
+      "timestamp": "2025-04-12T14:39:30Z",
+      "source_language": "zh",
+      "target_language": "en",
+      "source_text": "你好，今天怎么样？",
+      "translated_text": "Hello, how's today?",
+      "status": "success",
+      "error_message": null,
+      "detection": {
+        "language": "zh",
+        "confidence": 0.99
+      },
+      "processing_time": 200,
+      "api_version": "1.0"
+    },
+    {
+      "request_id": "stu45678vwx",
+      "timestamp": "2025-04-12T14:42:05Z",
+      "source_language": "pt",
+      "target_language": "en",
+      "source_text": "Oi, tudo bem?",
+      "translated_text": "Hey, how's it going?",
+      "status": "success",
+      "error_message": null,
+      "detection": {
+        "language": "pt",
+        "confidence": 0.96
+      },
+      "processing_time": 140,
+      "api_version": "1.0"
+    },
+    {
+      "request_id": "yz012345abc",
+      "timestamp": "2025-04-12T14:45:00Z",
+      "source_language": "ar",
+      "target_language": "en",
+      "source_text": "مرحبًا، كيف حالك؟",
+      "translated_text": "Hello, how are you?",
+      "status": "success",
+      "error_message": null,
+      "detection": {
+        "language": "ar",
+        "confidence": 0.98
+      },
+      "processing_time": 180,
+      "api_version": "1.0"
+    },
+    {
+      "request_id": "abc987654opq",
+      "timestamp": "2025-04-12T14:47:25Z",
+      "source_language": "ja",
+      "target_language": "en",
+      "source_text": "こんにちは、元気ですか？",
+      "translated_text": "Hello, how are you?",
+      "status": "success",
+      "error_message": null,
+      "detection": {
+        "language": "ja",
+        "confidence": 0.97
+      },
+      "processing_time": 210,
+      "api_version": "1.0"
+    },
+    {
+      "request_id": "xyz123456lmn",
+      "timestamp": "2025-04-12T14:50:00Z",
+      "source_language": "ko",
+      "target_language": "en",
+      "source_text": "안녕하세요, 잘 지내세요?",
+      "translated_text": "Hello, are you doing well?",
+      "status": "success",
+      "error_message": null,
+      "detection": {
+        "language": "ko",
+        "confidence": 0.96
+      },
+      "processing_time": 160,
+      "api_version": "1.0"
+    },
+    {
+      "request_id": "uvw234567xyz",
+      "timestamp": "2025-04-12T14:52:45Z",
+      "source_language": "ru",
+      "target_language": "en",
+      "source_text": "Здравствуйте, как ваши дела?",
+      "translated_text": "Hello, how are you?",
+      "status": "success",
+      "error_message": null,
+      "detection": {
+        "language": "ru",
+        "confidence": 0.99
+      },
+      "processing_time": 190,
+      "api_version": "1.0"
+    }
+  ],
+  "overall_stats": {
+    "total_requests": 10,
+    "successful_requests": 10,
+    "failed_requests": 0,
+    "average_processing_time": 150,
+    "languages_detected": [
+      "en",
+      "fr",
+      "de",
+      "it",
+      "zh",
+      "pt",
+      "ar",
+      "ja",
+      "ko",
+      "ru"
+    ]
+  },
+  "api_version": "1.0"
+}
